@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./index.css"/>
+  </head>
+  <body>
+    <div id="analog-clock">
+    <svg class="analog-clock" viewBox="0 0 100 100" width="500" height="500">
+      <circle cx="50" cy="50" r="40"/>
+      <g id="hands">
+        <line id="hours" x1="50" y1="50" x2="50" y2="30"/>
+        <line id="minutes" x1="50" y1="50" x2="50" y2="25"/>
+        <line id="seconds" x1="50" y1="50" x2="50" y2="15"/>
+      </g>
+      <g id="numbers">
+        <text x="48" y="14">12</text>
+        <text x="49" y="89">6</text>
+        <text x="87" y="51">3</text>
+        <text x="11" y="51">9</text>
+      </g>
+    </svg>
+    </div>
+    <div id="digital-clock">
+      <h2 id="the-digital-clock"></h2>
+    </div>
+    <div class="change-clock">
+      <button id="alter-clock">Analog</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

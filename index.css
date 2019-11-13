@@ -1,0 +1,57 @@
+* {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+/* analog clock styling */
+svg {
+  stroke: aqua;
+  fill: orange;
+}
+#analog-clock {
+  display: none;
+}
+
+#hours {
+  stroke: black;
+  stroke-width: 1%;
+}
+
+#minutes {
+  stroke: blueviolet;
+  stroke-width: 0.5%;
+}
+
+#seconds {
+  stroke: aqua;
+  stroke-width: 0.3%;
+}
+
+#numbers {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25%;
+  text-anchor: center;
+  stroke-width: 0.3%;
+}
+
+
+/*digital clock css */
+#the-digital-clock {
+  display: block;
+  text-align: center;
+  color: orange;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 10px;
+}
+
+/* button css */
+.change-clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+button {
+  background-color: orange;
+}
